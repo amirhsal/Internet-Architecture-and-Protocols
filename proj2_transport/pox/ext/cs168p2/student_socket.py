@@ -338,7 +338,7 @@ class RetxQueue(object):
     seq_no is an int
 
     Returns a list of tuples as defined by pop().
-    Pops packets as long as their sequence number are <= seq_no, or
+    Pops packets as long as their sequence number are < seq_no, or
     the queue is empty.
     """
     packets = []
